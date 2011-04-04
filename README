@@ -1,0 +1,11 @@
+This repository contains one primary file dpll_solver.py which is a python-bas\
+ed
+implementation of a SAT solver that uses the DPLL algorithm. The solver
+implements cascading unit propagation and allows several variable ordering
+heuristics to be used based on command-line flags.
+
+The repository also includes some test SAT problems in DIMACS CNF format.
+
+Example usage:
+
+python dpll_solver.py FILE=testdata/problem1.cnf
