@@ -1,10 +1,10 @@
-#!/usr/bin/python2.6
+#!/usr/bin/python2.7
 #
 # author: Dan Auerbach (dtauerbach@gmail.com)
 #
 # Example usage:
 # 
-# python dpll_solver.py FILE=problem1.cnf
+# python dpll_solver.py FILE=testdata/problem1.cnf
 #
 # This standalone module defines a DPLL-based SAT solver via the 
 # class _DPLLSolver. The solver reads in files in DIMACS CNF format:
